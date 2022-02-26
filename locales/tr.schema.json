@@ -636,6 +636,10 @@
           "options__2": {
             "label": "2 sütun"
           }
+        },
+        "enable_quick_buy": {
+          "label": "Hızlı ekleme düğmesini etkinleştir",
+          "info": "Açılır pencere ve çekmece sepet türü için optimumdur."
         }
       },
       "presets": {
@@ -1364,6 +1368,10 @@
           "options__2": {
             "label": "2 sütun"
           }
+        },
+        "enable_quick_buy": {
+          "label": "Hızlı ekleme düğmesini etkinleştir",
+          "info": "Açılır pencere ve çekmece sepet türü için optimumdur."
         }
       }
     },
