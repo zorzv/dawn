@@ -1435,6 +1435,9 @@
           },
           "options__2": {
             "label": "Horizontal"
+          },
+          "options__3": {
+            "label": "Drawer"
           }
         },
         "enable_sorting": {
