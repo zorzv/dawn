@@ -23,7 +23,7 @@
       assign collapsed_class = 'grid--collapsed grid--collapsed-y'
     endif
   -%}
-  <ul class="{{ collapsed_class }} contains-card collection-list grid grid--1-col grid--3-col-tablet" role="list">
+  <ul class="{{ collapsed_class }} contains-card collection-list grid grid--1-col-tablet-down grid--3-col-desktop" role="list">
     {%- for collection in collections -%}
       <li class="collection-list__item grid__item">
         {% render 'card-collection', card_collection: collection, media_aspect_ratio: section.settings.image_ratio, columns: 3 %}
