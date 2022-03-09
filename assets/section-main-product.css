@@ -378,6 +378,10 @@ a.product__text {
   text-align: center;
 }
 
+.product--no-media shopify-payment-terms {
+  text-align: center;
+}
+
 .product--no-media .product__media-wrapper {
   padding: 0;
 }
