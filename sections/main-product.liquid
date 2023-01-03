@@ -243,6 +243,8 @@
           {%- when 'description' -%}
             {%- if product.description != blank -%}
               Metafield: {{ product.metafields.custom.test | newline_to_br  }}<br>
+
+                Metafield: {{ product.metafields.custom.test.value  }}<br>
               <div class="product__description rte quick-add-hidden">
                 {{ product.description }}
               </div>
